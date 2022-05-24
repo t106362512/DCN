@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "dcn-ryu"
+version = "1.0.0"
+description = ""
+authors = ["ChihChia Wang <cwang@cs.nctu.edu.tw>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ryu = "^4.34"
+mininet = "^2.3.0-alpha.6"
+networkx = "^2.8.2"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^22.1.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
